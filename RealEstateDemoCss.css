@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clearfix{
+    clear: both;
+}
+#container{
+    margin: 0 auto;
+    width: 100%;
+}
+header{
+    position: relative;
+    background: black;
+    position: fixed; 
+    width: 100%;
+    height: 118px;
+}
+#header_left {
+    background: gold;
+    color: black;
+    float: left;
+    padding: 42px 90px;
+    font-size: 20px;
+    cursor: pointer;  
+}
+#header_left :hover{
+    color: silver;
+}
+nav{
+    float: right;
+    color: white;
+}
+nav ul li{
+    float: left;
+    list-style: none;
+    margin: 0 20px;
+    padding: 50px 20px;
+    transition: background 1s;
+}
+nav ul li:hover{
+    background: silver;
+    color: steelblue;
+}
+#main_sec {
+    background-image: url("img1.jpg"); 
+    background-size: 100%;
+    width: 100%;
+    /* width: 1500px; */
+    height: 500px;
+    padding: 100px 0;
+    /* background: url("downarrow.png"); */
+    /* box-sizing: border-box;  */
+}
+#main_sec h1{
+    text-align: center;
+    color: white;
+    padding-top:140px ;
+   font-size: 50px;
+   font-family: 'Times New Roman';
+}
+#main_sec img{
+    height: 60px;
+    width: 60px;
+    /* padding: 0 50px; */
+    margin: 0 700px;
+}
+/* #downimg{
+    background: url("downarrow.png");
+    padding-bottom: 10px;
+} */
+
+.service h2 {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    font-size: 40px ;
+    margin: 30px;
+    text-decoration: underline solid gold ;
+}
+article{
+    width: 25%;
+    padding: 0 60px;
+    float: left;
+}
+article img{
+    width: 100%;
+}
+.article_title{
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: grey;
+}
+.article_description{
+    color: darkgray;
+    padding: 0 10px;
+}
+.aboutus{
+    background: url(img6.jpg);
+    background-size: 100%;
+    width: 1200px;
+    height: 800px;
+    margin-top: 90px;
+    margin-left: 150px;
+}
+#about_head h2{
+    font-weight: bold;
+    text-align:left;
+    font-size: 40px ;
+    padding: 40px 50px;
+    text-decoration: underline solid gold ;
+}
+.aboutus_dictrpn{
+    padding: 10px 30px;
+    font-size: 20px;
+    color: #484848;
+}
+section{
+    background: gold;
+    /* text-align: center; */
+    margin: 20px 0;
+    padding: 20px 30px;
+}
+#rewards{
+    /* font-size: 40px;
+    color: grey;  */
+}
+.number{
+    font-size: 40px;
+    color: grey; 
+}
+.retext{
+    font-size: 20px;
+    color: grey; 
+
+}
+.vl{
+    border-bottom: 6px solid blueviolet;
+   width: 30px;
+   /* position: absolute; */
+  left: 50%; 
+  /* margin-left: -3px;
+  top: 0; */
+}
+.project_img img{
+   /* transition: 2s; */
+    height: 400px;
+    width: 500px;
+}
+#row1{
+    margin: 20px 20px;
+    float: left;
+}
+#row2{
+    float: right;
+    margin: 20px 20px;
+}
+#client{
+    background: rgb(243, 243, 243);
+    height: 200px;  
+}
+#client h2{
+    padding-top: 30px;
+}
+footer{
+    height: 50px;
+    text-align: center;
+    padding-top: 5px;
+    color: gray;
+}
+#cleft{
+    float:left;
+    width:50%;
+    /* height: 500px; */
+}
+  #contact p{
+      float: right;
+  }
+ form{
+      float: right;
+      margin: 10px 20px;
+  }
+    form input{
+        margin: 5px;
+        padding: 5px;
+    }
+   #cleft h3{
+       font-size: 25px;
+       color: grey;
+       float: right;
+       padding-right:  100px;
+   } 
+      .form_group{
+          margin: 10PX 0;
+      }
+#cright{
+    float: right;
+    width:50%;
+    /* height: 500px; */
+}
+#cright h3{
+    font-size: 25px;
+    color: grey;
+    float: left;
+}
